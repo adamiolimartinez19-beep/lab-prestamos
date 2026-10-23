@@ -1,0 +1,24 @@
+{
+  "equipos": [
+    { "id": 1, "nombre": "Raspberry Pi 4 - 4GB", "categoria": "Raspberry Pi", "disponible": true },
+    { "id": 2, "nombre": "Raspberry Pi 5 - 8GB", "categoria": "Raspberry Pi", "disponible": true },
+    { "id": 3, "nombre": "Arduino Uno R3", "categoria": "Arduino", "disponible": true },
+    { "id": 4, "nombre": "Arduino Mega 2560", "categoria": "Arduino", "disponible": true },
+    { "id": 5, "nombre": "Sensor de Humedad y Temp DHT22", "categoria": "Sensor", "disponible": true },
+    { "id": 6, "nombre": "Sensor Ultrasónico HC-SR04", "categoria": "Sensor", "disponible": false },
+    { "id": 7, "nombre": "Raspberry Pi Zero 2 W", "categoria": "Raspberry Pi", "disponible": true },
+    { "id": 8, "nombre": "Sensor Infrarrojo de Movimiento PIR", "categoria": "Sensor", "disponible": true }
+  ],
+  "prestamos": [
+    {
+      "id": 1,
+      "equipoId": 6,
+      "solicitante": "Carlos Gomez",
+      "carne": "0902-20-12345",
+      "fechaPrestamo": "2026-10-15T10:00:00.000Z",
+      "fechaLimite": "2026-10-20T10:00:00.000Z",
+      "devuelto": false,
+      "curso": ""
+    }
+  ]
+}
